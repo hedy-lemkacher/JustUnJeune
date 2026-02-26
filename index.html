@@ -3,117 +3,163 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Association Solidarité</title>
-  <meta name="description" content="Association engagée dans les maraudes, la construction de puits et les dons aux mosquées." />
+  <title>JUJ | Juste Un Jeune</title>
+  <meta name="description" content="Site officiel de JUJ - Juste Un Jeune. Association engagée dans la solidarité, les maraudes, les puits et l'aide communautaire." />
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
-  <header class="hero" id="accueil">
-    <div class="container">
-      <nav class="navbar">
-        <a href="#accueil" class="logo">Association Solidarité</a>
-        <div class="nav-links">
-          <a href="#a-propos">À propos</a>
-          <a href="#actions">Nos actions</a>
+  <div class="shape shape-blue-top"></div>
+  <div class="shape shape-yellow-left"></div>
+  <div class="shape shape-blue-bottom"></div>
+  <div class="shape shape-yellow-right"></div>
+  <div class="shape shape-blue-mid"></div>
+  <div class="shape shape-yellow-mid"></div>
+
+  <main class="page" id="top">
+    <section class="poster">
+      <header class="site-header reveal">
+        <a class="brand" href="#top">JUJ • Juste Un Jeune</a>
+        <button class="menu-toggle" type="button" aria-label="Ouvrir le menu">☰</button>
+        <nav class="menu" id="menu">
+          <a href="#top">Accueil</a>
+          <a href="#association">Association</a>
+          <a href="#actions">Actions</a>
+          <a href="#impact">Impact</a>
+          <a href="#faq">FAQ</a>
           <a href="#contact">Contact</a>
-        </div>
-      </nav>
+        </nav>
+        <a class="don-top" href="https://www.paypal.com/" target="_blank" rel="noopener noreferrer">Faire un don</a>
+      </header>
 
-      <div class="hero-content">
-        <p class="tag">Agir ensemble pour aider</p>
-        <h1>Une association engagée sur le terrain</h1>
-        <p>
-          Nous menons des actions solidaires concrètes : maraudes, construction de puits,
-          soutien aux mosquées et accompagnement des personnes dans le besoin.
+      <section class="hero-panel reveal">
+        <p class="basmala">بِسْمِ ٱللَّٰهِ ٱلرَّحْمَٰنِ ٱلرَّحِيمِ</p>
+        <h1>JUJ, la solidarité par l'action</h1>
+        <p class="lead">
+          Juste Un Jeune (JUJ) est une association portée par la jeunesse,
+          qui agit toute l'année pour aider les personnes en difficulté
+          avec des actions concrètes, humaines et transparentes.
         </p>
-        <div class="hero-buttons">
-          <a class="btn btn-primary" href="https://www.paypal.com/" target="_blank" rel="noopener noreferrer">Faire un don via PayPal</a>
-          <a class="btn btn-secondary" href="#actions">Découvrir nos actions</a>
+        <div class="cta reveal">
+          <a class="btn btn-primary" href="https://www.paypal.com/" target="_blank" rel="noopener noreferrer">Soutenir JUJ via PayPal</a>
+          <a class="btn btn-outline" href="#association">Découvrir JUJ</a>
         </div>
-      </div>
-    </div>
-  </header>
+      </section>
 
-  <main>
-    <section id="a-propos" class="section">
-      <div class="container grid-two">
+      <section class="info-band reveal">
+        <div class="pill">Association indépendante</div>
+        <div class="pill">Actions locales et internationales</div>
+        <div class="pill">Suivi des dons en toute transparence</div>
+      </section>
+
+      <section class="block reveal" id="association">
+        <h2>Qui sommes-nous ?</h2>
+        <p>
+          JUJ rassemble des bénévoles qui veulent transformer l'entraide en actions réelles.
+          Notre priorité est de répondre aux besoins essentiels : alimentation, eau, soutien communautaire
+          et accompagnement des personnes fragilisées.
+        </p>
+        <p>
+          Nous croyons qu'un engagement régulier, même modeste, peut créer un impact durable.
+          C'est pour cela que JUJ structure ses projets, communique ses avancées et mobilise sa communauté.
+        </p>
+      </section>
+
+      <section class="cards" id="actions">
+        <article class="card card-yellow reveal hover-lift">
+          <h3>Maraudes solidaires</h3>
+          <p>
+            Distribution de repas, collations, kits d'hygiène et vêtements pour soutenir
+            les personnes en situation de précarité, notamment durant les périodes les plus froides.
+          </p>
+        </article>
+        <article class="card card-blue reveal hover-lift">
+          <h3>Projets de puits</h3>
+          <p>
+            Financement de puits pour améliorer l'accès à l'eau potable.
+            Chaque projet est sélectionné pour son utilité directe auprès des familles bénéficiaires.
+          </p>
+        </article>
+        <article class="card card-mix reveal hover-lift">
+          <h3>Soutien aux mosquées</h3>
+          <p>
+            Aide matérielle et participation à des besoins utiles pour les mosquées partenaires,
+            dans une logique de service communautaire et d'entraide locale.
+          </p>
+        </article>
+      </section>
+
+      <section class="quote reveal">
+        <p>Un petit geste, un grand impact</p>
+      </section>
+
+      <section class="impact-grid" id="impact">
+        <article class="impact-card reveal">
+          <h3>Collectes ciblées</h3>
+          <p>Des campagnes centrées sur des besoins clairs et mesurables.</p>
+          <span class="badge">Action utile</span>
+        </article>
+        <article class="impact-card reveal">
+          <h3>Suivi continu</h3>
+          <p>Les donateurs suivent l'avancement des projets via nos réseaux.</p>
+          <span class="badge">Transparence</span>
+        </article>
+        <article class="impact-card reveal">
+          <h3>Mobilisation jeune</h3>
+          <p>JUJ construit une dynamique où les jeunes deviennent acteurs du bien.</p>
+          <span class="badge">Communauté</span>
+        </article>
+      </section>
+
+      <section class="stats-row reveal">
         <div>
-          <h2>Présentation de l’association</h2>
-          <p>
-            Notre association a pour mission d’apporter une aide humaine, matérielle et spirituelle
-            aux communautés qui en ont besoin. Chaque projet est mené avec sérieux, transparence
-            et bienveillance.
-          </p>
-          <p>
-            Grâce aux bénévoles et aux donateurs, nous intervenons en France et à l’international
-            pour répondre aux urgences et construire des solutions durables.
-          </p>
+          <p class="big-number stat" data-target="225">0</p>
+          <p>€ objectif type pour un puits</p>
         </div>
-        <div class="card">
-          <h3>Nos valeurs</h3>
-          <ul>
-            <li>Solidarité et fraternité</li>
-            <li>Respect et dignité</li>
-            <li>Transparence dans les actions</li>
-            <li>Impact durable sur le terrain</li>
-          </ul>
+        <div>
+          <p class="big-number stat" data-target="50">0</p>
+          <p>bénéficiaires minimum par puits</p>
         </div>
-      </div>
-    </section>
+        <div>
+          <p class="big-number stat" data-target="100">0</p>
+          <p>% engagement bénévole</p>
+        </div>
+      </section>
 
-    <section id="actions" class="section section-alt">
-      <div class="container">
-        <h2>Nos actions</h2>
-        <div class="actions-grid">
-          <article class="action-card">
-            <h3>Maraudes</h3>
-            <p>
-              Distribution de repas, vêtements et kits d’hygiène pour soutenir les personnes en difficulté.
-            </p>
-          </article>
-          <article class="action-card">
-            <h3>Construction de puits</h3>
-            <p>
-              Financement et suivi de puits pour garantir l’accès à l’eau potable aux familles et villages.
-            </p>
-          </article>
-          <article class="action-card">
-            <h3>Dons aux mosquées</h3>
-            <p>
-              Aide matérielle et participation à des projets utiles à la communauté locale.
-            </p>
-          </article>
-          <article class="action-card">
-            <h3>Actions ponctuelles</h3>
-            <p>
-              Collectes, distributions et projets de solidarité selon les besoins du moment.
-            </p>
-          </article>
+      <section class="block reveal" id="faq">
+        <h2>Questions fréquentes</h2>
+        <div class="faq-list">
+          <details>
+            <summary>Comment aider JUJ ?</summary>
+            <p>Tu peux faire un don, relayer nos actions, ou rejoindre l'équipe bénévole.</p>
+          </details>
+          <details>
+            <summary>Comment suivre l'avancement des projets ?</summary>
+            <p>Nous publions des mises à jour régulières sur Snapchat et WhatsApp.</p>
+          </details>
+          <details>
+            <summary>Les dons sont-ils dédiés aux actions ?</summary>
+            <p>Oui, JUJ privilégie des dépenses directement liées aux actions de terrain.</p>
+          </details>
         </div>
-      </div>
-    </section>
+      </section>
 
-    <section class="section">
-      <div class="container impact">
-        <h2>Pourquoi nous soutenir ?</h2>
-        <p>
-          Chaque don contribue directement à financer des actions concrètes. Ensemble,
-          nous pouvons aider plus de personnes et développer des projets utiles et durables.
-        </p>
-        <a class="btn btn-primary" href="https://www.paypal.com/" target="_blank" rel="noopener noreferrer">Je soutiens l’association</a>
-      </div>
+      <section class="cta reveal">
+        <a class="btn btn-primary" href="https://www.paypal.com/" target="_blank" rel="noopener noreferrer">Faire un don maintenant</a>
+        <a class="btn btn-outline" href="#contact">Contacter JUJ</a>
+      </section>
+
+      <footer class="contact reveal" id="contact">
+        <h2>Contact & réseaux</h2>
+        <div class="socials">
+          <a href="https://www.snapchat.com/add/justeunjeune" target="_blank" rel="noopener noreferrer">Snapchat : @JUSTEUNJEUNE</a>
+          <a href="https://wa.me/33749320009" target="_blank" rel="noopener noreferrer">WhatsApp : 07.49.32.00.09</a>
+          <a href="https://www.paypal.com/" target="_blank" rel="noopener noreferrer">PayPal : @MohamedBejaoui819</a>
+        </div>
+        <p class="year">© <span id="year"></span> JusteUnJeune</p>
+      </footer>
     </section>
   </main>
 
-  <footer id="contact" class="footer">
-    <div class="container footer-content">
-      <div>
-        <h3>Association Solidarité</h3>
-        <p>Pour toute question, contactez-nous par email ou sur nos réseaux.</p>
-      </div>
-      <a class="btn btn-secondary" href="https://www.paypal.com/" target="_blank" rel="noopener noreferrer">Lien PayPal</a>
-    </div>
-    <p class="copyright">© 2026 Association Solidarité — Tous droits réservés.</p>
-  </footer>
+  <script src="script.js" defer></script>
 </body>
 </html>
