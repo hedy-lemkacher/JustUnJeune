@@ -577,6 +577,9 @@ h1 {
 }
 
 .socials a {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
   padding: 10px 12px;
   border-radius: 12px;
   background: linear-gradient(120deg, #ffffff, #f2f7ff);
@@ -584,6 +587,12 @@ h1 {
   font-weight: 600;
   font-size: 0.93rem;
   transition: transform 0.22s ease, box-shadow 0.22s ease, border-color 0.22s ease;
+}
+
+.social-icon {
+  width: 16px;
+  height: 16px;
+  object-fit: contain;
 }
 
 .socials a:hover {
@@ -683,12 +692,34 @@ h1 {
   font-size: 0.9rem;
 }
 
-.base-location {
-  margin-top: 10px;
+.credits {
+  margin-top: 8px;
   text-align: center;
   color: var(--muted);
-  opacity: 0.78;
-  font-size: 0.82rem;
+  opacity: 0.8;
+  font-size: 0.78rem;
+}
+
+.contact-pill {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 8px;
+  padding: 4px 10px;
+  border-radius: 999px;
+  border: 1px solid var(--blue);
+  font-size: 0.7rem;
+  font-weight: 700;
+  background: #ffffff;
+  color: var(--blue-strong);
+  box-shadow: 0 4px 8px rgba(13, 71, 161, 0.18);
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background 0.2s ease;
+}
+
+.contact-pill:hover {
+  transform: translateY(-1px);
+  background: #eef4ff;
+  box-shadow: 0 6px 12px rgba(13, 71, 161, 0.22);
 }
 
 .reveal {
