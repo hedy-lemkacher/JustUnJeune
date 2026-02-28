@@ -662,6 +662,19 @@ h1 {
   font-weight: 800;
 }
 
+.big-number-euro::after {
+  content: " €";
+  font-weight: inherit;
+  font-size: inherit;
+}
+
+.big-number-percent::after {
+  content: "%";
+  font-weight: inherit;
+  font-size: inherit;
+  margin-left: 2px;
+}
+
 .faq-list {
   display: grid;
   gap: 10px;
